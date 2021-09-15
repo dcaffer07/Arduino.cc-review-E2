@@ -11,6 +11,7 @@
 #### Wiriring
 > Ver6y straight forward, simply connect an LED to the groundand a pin for power supply ad direction, and than add resisterns to ensure proper use of electricity...
 <img src="https://user-images.githubusercontent.com/71406831/133321835-78fca232-3509-4fd2-81b5-626428592a99.png" alt="Italian Trulli"  style="width:500px;">
+
 #### Code
 
 ```C++
