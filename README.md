@@ -152,3 +152,6 @@ void loop() {
 }
 
 +++
+
+> Ver6y straight forward, simply connect an LED to the groundand a pin for power supply ad direction, and than add resisterns to ensure proper use of electricity...
+<img src="https://user-images.githubusercontent.com/71406831/134237138-7d672a4f-f634-42a7-8e5b-8e36e8f16fc3.png" alt="wiring"  style="width:500px;">
