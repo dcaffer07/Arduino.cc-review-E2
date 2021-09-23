@@ -116,6 +116,18 @@ And here it is in all its glory
 
 ## Potentiometers
 
+#### Description:
+> Wire up a breadboard potentiometer to control the brightness of an LED
+#### Goal:
+>The goal here was to familiarize ourselves with a potentoiometer and how it operates.  We wewre also able to expand our knoowledge of code and its varuiouse functions by making something become brighter accordingly, without a deffinete sate or repeating loop.
+
+
+#### Wiring
+> In this wiring, all was famikliar in terms of hooking think up to 5v, ground, and the variiouse pins using wires and risiters, howver what was new in this wiring was connecting the middle connection wire of the potentiometer to A0, which simply gave the potentiometer itrs relevemnce by determinig brightness with the LED.
+<img src="https://user-images.githubusercontent.com/71406831/134237138-7d672a4f-f634-42a7-8e5b-8e36e8f16fc3.png" alt="wiring"  style="width:500px;">
+
+#### Code
+
 ```C++
 
 
@@ -148,8 +160,9 @@ void loop() {
   delay(100);
 }
 ```
+### Evidence (or the device in all its glory via tinker cad)
 
+<img src="https://hackster.imgix.net/uploads/attachments/1144713/led_light_ll76wHKBOA.gif?auto=compress&gifq=35&w=680&h=510&fit=max" alt="wiring"  style="width:500px;">
 
-#### Wiring
-> In this wiring, all was famikliar in terms of hooking think up to 5v, ground, and the variiouse pins using wires and risiters, howver what was new in this wiring was connecting the middle connection wire of the potentiometer to A0, which simply gave the potentiometer itrs relevemnce by determinig brightness with the LED.
-<img src="https://user-images.githubusercontent.com/71406831/134237138-7d672a4f-f634-42a7-8e5b-8e36e8f16fc3.png" alt="wiring"  style="width:500px;">
+[image credit goes to Wieselly](https://hackster.imgix.net/uploads/attachments/1144713/led_light_ll76wHKBOA.gif?auto=compress&gifq=35&w=680&h=510&fit=max)
+
