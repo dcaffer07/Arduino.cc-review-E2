@@ -5,7 +5,8 @@
 #### LED Fade
 #### Potentiometers 
 
-### LED Blink w/ Button - Aurduino review assignment
+
+## LED Blink w/ Button - Aurduino review assignment
 #### Description:
 > Get the LED to blink when you push the button and have a counter print numbers up to 10 for each blink (will blink 10 times).
 #### Goal
@@ -60,7 +61,7 @@ void loop() {
 ```
 #### Reflection:
 > Easy. simple, but was great to get back into it!!!!!!!!!!!!!!!!!
-### LED Fade w/o Button
+## LED Fade w/o Button
 
 #### Description:
 
@@ -113,7 +114,7 @@ And here it is in all its glory
 > All in all I think that this assigmant was extermely effective in refreshing our memory of code and getting back into the swing of things.  I enjoyed geting to begin with things that I was comfortable with and than gradually introducing harder and less familiar material such as the analogWrite()function.  It was great to get back into the swiung of things and I look forward to creatinmg more code in the future.
 
 
-###  
+## Potentiometers
 
 ```C++
 
