@@ -1,4 +1,10 @@
 # LED-review-E2
+## Table of Contents
+
+#### LED Blink W/ Button
+#### LED Fade
+#### Potentiometers 
+
 ## Aurduino review assignment
 
 ### LED Blink w/ Button
