@@ -147,10 +147,9 @@ void loop() {
   Serial.println(brightness);
   delay(100);
 }
-}
-'''
+```
+
 
 #### Wiring
-
-
+> In this wiring, all was famikliar in terms of hooking think up to 5v, ground, and the variiouse pins using wires and risiters, howver what was new in this wiring was connecting the middle connection wire of the potentiometer to A0, which simply gave the potentiometer itrs relevemnce by determinig brightness with the LED.
 <img src="https://user-images.githubusercontent.com/71406831/134237138-7d672a4f-f634-42a7-8e5b-8e36e8f16fc3.png" alt="wiring"  style="width:500px;">
