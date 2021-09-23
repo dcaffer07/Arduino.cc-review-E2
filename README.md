@@ -1,13 +1,11 @@
-# LED-review-E2
+# Aurduino.cc Assigments-E2
 ## Table of Contents
 
 #### LED Blink W/ Button
 #### LED Fade
 #### Potentiometers 
 
-## Aurduino review assignment
-
-### LED Blink w/ Button
+### LED Blink w/ Button - Aurduino review assignment
 #### Description:
 > Get the LED to blink when you push the button and have a counter print numbers up to 10 for each blink (will blink 10 times).
 #### Goal
