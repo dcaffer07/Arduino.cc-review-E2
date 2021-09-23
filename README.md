@@ -100,6 +100,11 @@ void loop() {
   delay(30);
 }
 ```
+
+And here it is in all its glory
+
+<img src="https://github.com/dcaffer07/LED-review-E2/blob/main/Media/fade.gif?raw=true" alt="wiring"  style="width:500px;">
+
 #### Reflection:
 > All in all I think that this assigmant was extermely effective in refreshing our memory of code and getting back into the swing of things.  I enjoyed geting to begin with things that I was comfortable with and than gradually introducing harder and less familiar material such as the analogWrite()function.  It was great to get back into the swiung of things and I look forward to creatinmg more code in the future.
 
