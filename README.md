@@ -4,7 +4,7 @@
 ##### [LED Blink W/ Button](https://github.com/dcaffer07/LED-review-E2/blob/main/README.md#led-blink-w-button---aurduino-review-assignment) 
 #### [LED Fade](https://github.com/dcaffer07/LED-review-E2/blob/main/README.md#led-fade-wo-button)
 #### [Potentiometers](https://github.com/dcaffer07/LED-review-E2/blob/main/README.md#potentiometers-1) 
-
+#### [Photoresistor](https://github.com/dcaffer07/LED-review-E2/blob/main/README.md#photoresistor) 
 
 ## LED Blink w/ Button - Aurduino review assignment
 #### Description:
@@ -169,6 +169,7 @@ void loop() {
 > This assigjment was interesting because we were able to incorperate new coding and wiring methods.  Thcan ofcourse be challenging however it was proballby my favorite assignment so far.
 
 ## Photoresistor
+
 #### Wiring
 
 > Give LED power and pin, give PHOTORESISTOR power and pin, make it happen...
