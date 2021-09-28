@@ -167,3 +167,33 @@ void loop() {
 
 #### Reflection
 > This assigjment was interesting because we were able to incorperate new coding and wiring methods.  Thcan ofcourse be challenging however it was proballby my favorite assignment so far.
+
+
+```C++
+
+int light = 0; // store the current light value
+
+void setup() {
+    // put your setup code here, to run once:
+    Serial.begin(9600); //configure serial to talk to computer
+    pinMode(8, OUTPUT); // configure digital pin 13 as an output
+}
+
+void loop() {
+    // put your main code here, to run repeatedly:
+    light = analogRead(A0); // read and save value from PR
+    
+    Serial.println(light); // print current light value
+ 
+    if(light > 450) { // If it is bright...
+        Serial.println("It is quite light!");
+        digitalWrite(8,LOW); //turn left LED off
+    }
+    else { // If it's dark...
+        Serial.println("It is pretty dark!");
+        digitalWrite(8,HIGH); // Turn left LED on
+    }
+    delay(1000); // don't spam the computer!
+}
+
+'''
