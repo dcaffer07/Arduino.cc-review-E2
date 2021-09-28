@@ -170,8 +170,9 @@ void loop() {
 
 ## Photoresistor
 #### Wiring
+
 > Ver6y straight forward, simply connect an LED to the groundand a pin for power supply ad direction, and than add resisterns to ensure proper use of electricity...
-<img.src="https://user-images.githubusercontent.com/71406831/135154296-609e4e00-5a8c-4f4c-b138-6cc987efca99.png" alt="wiring"  style="width:500px;">
+<img src="https://user-images.githubusercontent.com/71406831/135154892-4c6eeadd-1860-45de-8185-c711fea61efe.png" alt="wiring"  style="width:500px;">
 
 #### Code
 
