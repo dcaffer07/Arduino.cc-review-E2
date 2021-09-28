@@ -4,7 +4,7 @@
 ##### [LED Blink W/ Button](https://github.com/dcaffer07/LED-review-E2/blob/main/README.md#led-blink-w-button---aurduino-review-assignment) 
 #### [LED Fade](https://github.com/dcaffer07/LED-review-E2/blob/main/README.md#led-fade-wo-button)
 #### [Potentiometers](https://github.com/dcaffer07/LED-review-E2/blob/main/README.md#potentiometers-1) 
-#### [Photoresistor](https://github.com/dcaffer07/LED-review-E2/blob/main/README.md#photoresistor) 
+#### [Photoresistor](https://github.com/dcaffer07/LED-review-E2/blob/main/README.md#photoresistor-1) 
 
 ## LED Blink w/ Button - Aurduino review assignment
 #### Description:
