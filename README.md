@@ -215,5 +215,4 @@ void loop() {
 ```
 
 
-<img src="![image](https://user-images.githubusercontent.com/71406831/138344773-c9536c19-73cb-4fe4-8f6b-183ae090ab22.png)
-" alt="wiring"  style="width:500px;">
+<img src="https://github.com/dcaffer07/LED-review-E2/blob/main/Media/Phgotoresitor%20gif.gif?raw=true" alt="wiring"  style="width:500px;">
