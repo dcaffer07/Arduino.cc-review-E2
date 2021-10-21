@@ -171,9 +171,15 @@ void loop() {
 
 ## Photoresistor
 
+#### Description:
+> Your task is to develop a night light that automatically comes on when it gets dark.  Or in other words, when you cut of the photresistors light source, an LED should turn on.
+
+#### Goal:
+> To incorporate new, and more complex functions into our coding knowledge to further our overall knowledge and understanding of how things opporate.  Also because it's gonna be fun!!!!
+
 #### Wiring
 
-> Give LED power and pin, give PHOTORESISTOR power and pin, make it happen...
+> Give LED power and pin, give PHOTORESISTOR power and pin, make it happen so that when light is taken away, power is supplyed to the LED.  This wiring was not too complicated or diferent at all, and I would say that the wiring for some of the previouse assignments was harder, because really all this was was hooking u an LED and making it corrospond to a button which we have done numerouse times, only now rather than a button we are using a photoresistor...
 <img src="https://user-images.githubusercontent.com/71406831/135154892-4c6eeadd-1860-45de-8185-c711fea61efe.png" alt="wiring"  style="width:500px;">
 
 #### Code
