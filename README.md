@@ -215,4 +215,4 @@ void loop() {
 ```
 
 
-<img src="https://im2.ezgif.com/tmp/ezgif-2-e512bcf1cc60.gif">
+<img src="https://im2.ezgif.com/tmp/ezgif-2-e512bcf1cc60.gif" alt="wiring"  style="width:500px;">
