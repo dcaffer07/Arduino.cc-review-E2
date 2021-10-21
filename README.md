@@ -183,6 +183,7 @@ void loop() {
 <img src="https://user-images.githubusercontent.com/71406831/135154892-4c6eeadd-1860-45de-8185-c711fea61efe.png" alt="wiring"  style="width:500px;">
 
 #### Code
+> We used the analog pin A0 and the command analogRead() to read the value of the photoresistor which was the overall basis and "spicy part of the assignment".
 
 ```C++
 
@@ -213,3 +214,5 @@ void loop() {
 
 ```
 
+
+<img src="https://im2.ezgif.com/tmp/ezgif-2-e512bcf1cc60.gif">
