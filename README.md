@@ -214,5 +214,8 @@ void loop() {
 
 ```
 
-
+#### Evidence (The Photoresistor in all its glory!)
 <img src="https://github.com/dcaffer07/LED-review-E2/blob/main/Media/Phgotoresitor%20gif.gif?raw=true" alt="wiring"  style="width:500px;">
+
+#### Reflection
+> All in all I really enjoyed this assignemnt, I think it did a good job incorporating some of the things that we did in the past with neer things making for a fun and cool experience.  This was by far my favoritre assignemnt so far and I look forwar to more like it in the future!
