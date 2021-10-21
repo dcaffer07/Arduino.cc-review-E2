@@ -160,10 +160,11 @@ void loop() {
   delay(100);
 }
 ```
-#### [Evidence (or the device in all its glory via tinker cad (was absent the day we did this so it was suggested that I do this Digitally!!))](https://www.tinkercad.com/things/iL3KHLuNY8Q-fantabulous-jaiks/editel)
+#### [*Evidence (or the device in all its glory via tinker cad (was absent the day we did this so it was suggested that I do this Digitally!!*))](https://www.tinkercad.com/things/iL3KHLuNY8Q-fantabulous-jaiks/editel)
 
 <img src="https://hackster.imgix.net/uploads/attachments/1144713/led_light_ll76wHKBOA.gif?auto=compress&gifq=35&w=680&h=510&fit=max" alt="wiring"  style="width:500px;">
-[image credit goes to Wieselly](https://hackster.imgix.net/uploads/attachments/1144713/led_light_ll76wHKBOA.gif?auto=compress&gifq=35&w=680&h=510&fit=max)
+
+[Image credit goes to Wieselly](https://hackster.imgix.net/uploads/attachments/1144713/led_light_ll76wHKBOA.gif?auto=compress&gifq=35&w=680&h=510&fit=max)
 
 #### Reflection
 > This assigjment was interesting because we were able to incorperate new coding and wiring methods.  Thcan ofcourse be challenging however it was proballby my favorite assignment so far.
