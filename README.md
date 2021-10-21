@@ -213,4 +213,3 @@ void loop() {
 
 ```
 
-##### Wriring
