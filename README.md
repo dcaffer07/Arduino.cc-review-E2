@@ -76,7 +76,7 @@ void loop() {
 > Very straight forward, simply connect an LED to the groundand a pin for power supply ad direction, and than add resisterns to ensure proper use of electricity...
 <img src="https://raw.githubusercontent.com/zsiller38/Engineering2-Arduino/main/images/ArduinoPhade.png" alt="wiring"  style="width:500px;">
 
-Image credit goes to [Zach S.](https://github.com/zsiller38/Engineering2-Arduino)
+Image credit goes to [Zach S. (BIG ZACH)](https://github.com/zsiller38/Engineering2-Arduino)
 
 #### Code
 
