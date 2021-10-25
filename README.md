@@ -10,9 +10,9 @@
 #### Description:
 > Get the LED to blink when you push the button and have a counter print numbers up to 10 for each blink (will blink 10 times).
 #### Goal
-> Get the LED to blink when you push the button and have a counter print numbers up to 10 for each blink (will blink 10 times).  Additionally, we simple just want to refamiliarize ourselves with code and aurduino for future assignments.
+> Get the LED to blink when you push the button and have a counter print numbers up to 10 for each blink (will blink 10 times).  Additionally, we simply just want to refamiliarize ourselves with code and aurduino for future assignments.
 #### Wriring 
-> Very straight forward, simply connect an LED to the groundand a pin for power supply ad direction, and than add resisters to ensure proper use of electricity, and button to begin the loop...
+> Very straightforward, simply connect an LED to the groundand a pin for power supply and direction and then add resisters to ensure proper use of electricity, and button to begin the loop...
 <img src="https://user-images.githubusercontent.com/71406831/133668640-a781d8e3-5f1d-4e4d-ab7f-e9eb001982fe.png" alt="wiring2" style="width:500px;">
 
 #### Code
@@ -69,7 +69,7 @@ void loop() {
 > Make an LED fade in and out.
 #### Goal:
 
-> The goal and prurpose of this assignment was to eintroduce and familiarize ourselves to aurdunos and their code again.  In this assigment we were tasked with making an LED fade in and out, rather than blink without a button, or really any other restrictions such as speed or amopunt of times.  The primary differnece in accomplishing this in thge code compared to having an LED blink was using the anaolgWrite(); function rather than the digitalWrite(); function.  Asside from that they used many of the same things such as connecfting and establishing ppins, serial.print.ln, ect.
+> The goal and prurpose of this assignment was to eintroduce and familiarize ourselves to aurdunos and their code agjain.  In this assigment we were tasked with making an LED fade in and out, rather than blink without a button, or really any other restrictions such as speed or amopunt of times.  The primary differnece in accomplishing this in thge code compared to having an LED blink was using the anaolgWrite(); function rather than the digitalWrite(); function.  Asside from that they used many of the same things such as connecfting and establishing ppins, serial.print.ln, ect.
 #### Wiriring
 
 > Ver6y straight forward, simply connect an LED to the groundand a pin for power supply ad direction, and than add resisterns to ensure proper use of electricity...
@@ -223,3 +223,5 @@ void loop() {
 > All in all I really enjoyed this assignemnt, I think it did a good job incorporating some of the things that we did in the past with neer things making for a fun and cool experience.  This was by far my favoritre assignemnt so far and I look forwar to more like it in the future!
 
 [Back to Top](https://github.com/dcaffer07/Aurduino.cc-review-E2/blob/main/README.md#aurduinocc-review-e2-notsobasicaurduino)
+
+
