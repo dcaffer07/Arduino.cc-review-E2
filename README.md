@@ -62,6 +62,7 @@ void loop() {
 ```
 #### Reflection:
 > Easy. simple, but was great to get back into it!!!!!!!!!!!!!!!!!
+> 
 ## LED Fade w/o Button
 
 #### Description:
@@ -72,8 +73,10 @@ void loop() {
 > The goal and prurpose of this assignment was to eintroduce and familiarize ourselves to aurdunos and their code agjain.  In this assigment we were tasked with making an LED fade in and out, rather than blink without a button, or really any other restrictions such as speed or amopunt of times.  The primary differnece in accomplishing this in thge code compared to having an LED blink was using the anaolgWrite(); function rather than the digitalWrite(); function.  Asside from that they used many of the same things such as connecfting and establishing ppins, serial.print.ln, ect.
 #### Wiriring
 
-> Ver6y straight forward, simply connect an LED to the groundand a pin for power supply ad direction, and than add resisterns to ensure proper use of electricity...
-<img src="https://user-images.githubusercontent.com/71406831/133321835-78fca232-3509-4fd2-81b5-626428592a99.png" alt="wiring"  style="width:500px;">
+> Very straight forward, simply connect an LED to the groundand a pin for power supply ad direction, and than add resisterns to ensure proper use of electricity...
+<img src="https://raw.githubusercontent.com/zsiller38/Engineering2-Arduino/main/images/ArduinoPhade.png" alt="wiring"  style="width:500px;">
+
+Image credit goes to [Zach S.](https://github.com/zsiller38/Engineering2-Arduino)
 
 #### Code
 
