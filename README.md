@@ -14,6 +14,7 @@
 #### Wriring 
 > Very straightforward, simply connect an LED to the groundand a pin for power supply and direction and then add resisters to ensure proper use of electricity, and button to begin the loop...
 <img src="https://user-images.githubusercontent.com/71406831/133668640-a781d8e3-5f1d-4e4d-ab7f-e9eb001982fe.png" alt="wiring2" style="width:500px;">
+
 Image credit goes to [The Robotics Back-End](https://roboticsbackend.com/arduino-turn-led-on-and-off-with-button/)
 
 #### Code
