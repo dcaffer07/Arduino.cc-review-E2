@@ -8,8 +8,6 @@
 
 ## LED Blink w/ Button - Aurduino review assignment
 #### Description:
-> Get the LED to blink when you push the button and have a counter print numbers up to 10 for each blink (will blink 10 times).
-#### Goal
 > Get the LED to blink when you push the button and have a counter print numbers up to 10 for each blink (will blink 10 times).  Additionally, we simply just want to refamiliarize ourselves with code and aurduino for future assignments.
 #### Wriring 
 > Very straightforward, simply connect an LED to the groundand a pin for power supply and direction and then add resisters to ensure proper use of electricity, and button to begin the loop...
@@ -68,11 +66,7 @@ void loop() {
 ## LED Fade w/o Button
 
 #### Description:
-
-> Make an LED fade in and out.
-#### Goal:
-
-> The goal and prurpose of this assignment was to eintroduce and familiarize ourselves to aurdunos and their code agjain.  In this assigment we were tasked with making an LED fade in and out, rather than blink without a button, or really any other restrictions such as speed or amopunt of times.  The primary differnece in accomplishing this in thge code compared to having an LED blink was using the anaolgWrite(); function rather than the digitalWrite(); function.  Asside from that they used many of the same things such as connecfting and establishing ppins, serial.print.ln, ect.
+> The goal and prurpose of this assignment was to eintroduce and familiarize ourselves to aurdunos and their code agjain.  In this assigment we were tasked with making an LED fade in and out, rather than blink without a button, or really any other restrictions such as speed or amount of times.  The primary differnece in accomplishing this in the code compared to having an LED blink was using the anaolgWrite(); function rather than the digitalWrite(); function.  Asside from that we will be using many of the same things such as connecting and establishing pins, serial.print.ln, ect.
 #### Wiriring
 
 > Very straight forward, simply connect an LED to the groundand a pin for power supply ad direction, and than add resisterns to ensure proper use of electricity...
@@ -123,9 +117,7 @@ And here it is in all its glory
 ## Potentiometers
 
 #### Description:
-> Wire up a breadboard potentiometer to control the brightness of an LED
-#### Goal:
->The goal here was to familiarize ourselves with a potentoiometer and how it operates.  We wewre also able to expand our knoowledge of code and its varuiouse functions by making something become brighter accordingly, without a deffinete sate or repeating loop.
+> Wire up a breadboard potentiometer to control the brightness of an LED. The goal here was to familiarize ourselves with a potentoiometer and how it operates.  We were also able to expand our knoowledge of code and its varuiouse functions by making something become brighter accordingly, without a deffinete state or repeating loop.
 
 
 #### Wiring
@@ -179,10 +171,7 @@ void loop() {
 ## Photoresistor
 
 #### Description:
-> Your task is to develop a night light that automatically comes on when it gets dark.  Or in other words, when you cut of the photresistors light source, an LED should turn on.
-
-#### Goal:
-> To incorporate new, and more complex functions into our coding knowledge to further our overall knowledge and understanding of how things opporate.  Also because it's gonna be fun!!!!
+> Your task is to develop a night light that automatically comes on when it gets dark.  Or in other words, when you cut of the photresistors light source, an LED should turn on. Here we want to incorporate new, and more complex functions into our coding knowledge to further our overall knowledge and understanding of how things opporate.  Also because it's gonna be fun!!!!
 
 #### Wiring
 
