@@ -77,34 +77,29 @@ Image credit goes to [Zach S. (BIG ZACH)](https://github.com/zsiller38/Engineeri
 #### Code
 
 ```C++
-/*
 
-  int led = 9;           // the pin that the LED is attached to
-  int brightness = 0;    // how bright the LED is
-  int fadeAmount = 5;    // how many points to fade the LED by
+int led = 9;
+int brightness = 0;
+int fadeAmount = 5;
 
-  // the setup routine runs once when you press reset:
-  void setup() {
-  // declare pin 9 to be an output:
+void setup() {
   pinMode(led, OUTPUT);
-  }
+}
 
-  // the loop routine runs over and over again forever:
-  void loop() {
-  // set the brightness of pin 9:
+
+void loop() {
+
   analogWrite(led, brightness);
-
-  // change the brightness for next time through the loop:
   brightness = brightness + fadeAmount;
 
-  // reverse the direction of the fading at the ends of the fade:
-  if (brightness == 0 || brightness == 255) {
-  fadeAmount = -fadeAmount ;
+  if (brightness <= 0 || brightness >= 255) {
+    fadeAmount = -fadeAmount;
   }
-  // wait for 30 milliseconds to see the dimming effect
   delay(30);
-  }
+}
+
 ```
+Code credit goes to [Zach S.](https://github.com/zsiller38/Engineering2-Arduino) I did my code on the device at school not on aurduino.cc, and so when submitting this at home on my chromebook I don't have the code.  Put all in aurduino.cc!
 
 And here it is in all its glory
 
