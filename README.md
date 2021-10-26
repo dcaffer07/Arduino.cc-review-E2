@@ -19,14 +19,14 @@ Image credit goes to [The Robotics Back-End](https://roboticsbackend.com/arduino
 
 ```C++
  
-int ledPin = 2;
-int buttonPin = 13;
-int buttonState = LOW;
+int ledPin = 2; // Just settin up pins and laying foundation for work to come
+int buttonPin = 13; // ^
+int buttonState = LOW; // Saying the defualt button state is low
 int counter = 1;
 
 void setup() {
   Serial.begin(9600);
-  pinMode(ledPin, OUTPUT);
+  pinMode(ledPin, OUTPUT); //  Conecting things to initialize.  Setting up inputs/outputs.  When this occurs.... this will occur
   pinMode(buttonPin, INPUT);
 
 }
@@ -34,27 +34,27 @@ void setup() {
 
 
 void loop() {
-  buttonState = digitalRead(buttonPin);
+  buttonState = digitalRead(buttonPin); // Saying to read button... if pressed or high... light will turn on... if not... defualt stae of off.
   Serial.print(buttonState);
   Serial.print("\t");
   if (buttonState == HIGH) {
 
     if (counter > 0 && counter < 11) {
       counter = counter + 1;
-      Serial.println(counter);
-      digitalWrite(2, HIGH);
+      Serial.println(counter); // what will print as the program operates.
+      digitalWrite(2, HIGH); // just the prcess of what will happen when button is pressed.
       delay(250);
       digitalWrite(2, LOW);
       delay(250);
     }
     else if (counter == 10) {
-      Serial.println("Done!");
+      Serial.println("Done!"); // if button on... print stuff but if not, serial print DONE.
       digitalWrite(buttonState, LOW);
     }
     else {
       
       digitalWrite(ledPin, LOW);
-      Serial.println("Off!");
+      Serial.println("Off!"); // off
      
     }
   }
@@ -78,22 +78,22 @@ Image credit goes to [Zach S. (BIG ZACH)](https://github.com/zsiller38/Engineeri
 
 ```C++
 
-int led = 9;
+int led = 9; // setting up pins
 int brightness = 0;
-int fadeAmount = 5;
+int fadeAmount = 5; // fade amount, or establishing how much brightness or light will be presnts depending.
 
 void setup() {
-  pinMode(led, OUTPUT);
+  pinMode(led, OUTPUT); // LED is output so what will be changed.
 }
 
 
-void loop() {
+void loop() { // fad and keep due to loop, don't stop.
 
-  analogWrite(led, brightness);
-  brightness = brightness + fadeAmount;
+  analogWrite(led, brightness); // allows for this to work 
+  brightness = brightness + fadeAmount; // brigtness will be however much impact or relevnce fade has.
 
   if (brightness <= 0 || brightness >= 255) {
-    fadeAmount = -fadeAmount;
+    fadeAmount = -fadeAmount; // simply setting brightness bounds for LED
   }
   delay(30);
 }
@@ -140,19 +140,19 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
-  // reads the input on analog pin A0 (value between 0 and 1023)
+  // reads the input on analog pin A0 (value between 0 and 1023) or we can think of it as a energy or brightness level
   int analogValue = analogRead(A0);
 
-  // scales brightness
+  // scales brightness or gives it variation as potentiometer turned.
   int brightness = map(analogValue, 0, 1023, 0, 255);
 
-  // sets the brightness LED that connects to  pin 3
+  // sets the brightness LED that connects to pin 3
   analogWrite(LED_PIN, brightness);
 
   // print out the value
-  Serial.print("Analog: ");
+  Serial.print("Analog: "); // when runs print amount of energy depending on value. 
   Serial.print(analogValue);
-  Serial.print(", Brightness: ");
+  Serial.print(", Brightness: ");  // output ior what is being determined through all of this is brightness.
   Serial.println(brightness);
   delay(100);
 }
@@ -187,19 +187,19 @@ void loop() {
 
 ```C++
 
-int light = 0; // store the current light value
+int light = 0; // initial state of light
 
 void setup() {
     // put your setup code here, to run once:
-    Serial.begin(9600); //configure serial to talk to computer
-    pinMode(8, OUTPUT); // configure digital pin 13 as an output
+    Serial.begin(9600); // connect things together so they can function
+    pinMode(8, OUTPUT); // connect inputs and outputs
 }
 
 void loop() {
-    // put your main code here, to run repeatedly:
-    light = analogRead(A0); // read and save value from PR
+    // put your main code here, to run:
+    light = analogRead(A0); // read in order to export a value or result
     
-    Serial.println(light); // print current light value
+    Serial.println(light); // run depending on lighting results
  
     if(light > 450) { // If it is bright...
         Serial.println("It is quite light!");
@@ -209,7 +209,7 @@ void loop() {
         Serial.println("It is pretty dark!");
         digitalWrite(8,HIGH); // Turn left LED on
     }
-    delay(1000); // don't spam the computer!
+    delay(1000); // just giving device a way to not be overwhelemed.
 }
 
 ```
