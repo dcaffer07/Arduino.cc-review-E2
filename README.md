@@ -115,7 +115,7 @@ And here it is in all its glory
 > - AnalogWrite(); gives fading effect so that ther is not one set value for a brightness but instead there is continuose unconditional change.
 > - Make sure that pins are directed to the correct area, and use side sections on breadboard to connect graound and 5v rather than tryong to directly connect.
 > - When using other wiring make sure to give credit.  It can be easy to forget but have to be carefull about it. image --> cred goes to xxx
-
+>
 > Overall the assignment did not introduce too many new factors howver these are important things to keep in mind.
 
 ## Potentiometers
@@ -174,7 +174,7 @@ void loop() {
 > - Potentiometer- potential energy, if A0 (analog read) interperites greater umph via turn of potentiometer and vice versa.
 > - When printing things make sure to be soecific about what is being printed in terms of lik "" for simplicity and effectiveness.
 > - When writing... do not overthink, i initially overthought this howver after having been walked through it its not complicated so don't make it complicated.
-
+>
 > Really cool assigment and look forward to ore like it
 
 ## Photoresistor
@@ -227,7 +227,7 @@ void loop() {
 > - Use "if" "else" to express, if lightgretarer than this.. do this, if not do this and use specific values to work with.
 > - Same deal as potentiometer, use former knowledge and examples in code, makes everything easier.  Didn't initially but helps a lot.
 > - Genually think.  what is the goal, how can I achieve.  Again, keep it simple, don't ver complicate.
-
+>
 > I think it did a good job incorporating some of the things that we did in the past with neer things making for a fun and cool experience.  This was by far my favoritre assignemnt so far and I look forwar to more like it in the future!
 
 [Back to Top](https://github.com/dcaffer07/Aurduino.cc-review-E2/blob/main/README.md#aurduinocc-review-e2-notsobasicaurduino)
