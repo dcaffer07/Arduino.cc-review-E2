@@ -8,7 +8,7 @@
 
 ## LED Blink w/ Button - Arduino review assignment
 #### Description:
-> Get the LED to blink when you push the button and have a counter print numbers up to 10 for each blink (will blink 10 times).  Additionally, we simply just want to refamiliarize ourselves with code and aurduino for future assignments.
+> Get the LED to blink when you push the button and have a counter print numbers up to 10 for each blink (will blink 10 times).  Additionally, we simply just want to refamiliarize ourselves with code and arduino for future assignments.
 #### Wriring 
 > Very straight forward, simply connect an LED to the ground and a pin for power supply and direction and then add resistors to ensure proper use of electricity, and a button to begin the loop or function...
 <img src="https://user-images.githubusercontent.com/71406831/133668640-a781d8e3-5f1d-4e4d-ab7f-e9eb001982fe.png" alt="wiring2" style="width:500px;">
