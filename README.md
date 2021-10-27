@@ -99,7 +99,7 @@ void loop() { // fad and keep due to loop, don't stop.
 }
 
 ```
-Code credit goes to [Zach S.](https://github.com/zsiller38/Engineering2-Arduino) I did my code on the device at school not on aurduino.cc, and so when submitting this at home on my chromebook I don't have the code.  Put all in aurduino.cc!
+Code credit goes to [Zach S.](https://github.com/zsiller38/Engineering2-Arduino) I did my code on the device at school not on aurduino.cc, and so when submitting this at home on my chromebook I don't have the code.  Put all in aurduino.cc! (Comments applied were own)
 
 And here it is in all its glory (evidence)
 
