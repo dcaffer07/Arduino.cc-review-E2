@@ -1,4 +1,4 @@
-# Aurduino.cc-review-E2 (NotSoBasicAurduino)
+# Arduino.cc-review-E2 (NotSoBasicArduino)
 ## Table of Contents
 
 ##### [LED Blink W/ Button](https://github.com/dcaffer07/LED-review-E2/blob/main/README.md#led-blink-w-button---aurduino-review-assignment) 
@@ -6,11 +6,11 @@
 #### [Potentiometers](https://github.com/dcaffer07/LED-review-E2/blob/main/README.md#potentiometers-1) 
 #### [Photoresistor](https://github.com/dcaffer07/LED-review-E2/blob/main/README.md#photoresistor-1) 
 
-## LED Blink w/ Button - Aurduino review assignment
+## LED Blink w/ Button - Arduino review assignment
 #### Description:
 > Get the LED to blink when you push the button and have a counter print numbers up to 10 for each blink (will blink 10 times).  Additionally, we simply just want to refamiliarize ourselves with code and aurduino for future assignments.
 #### Wriring 
-> Very straightforward, simply connect an LED to the ground and a pin for power supply and direction and then add resisters to ensure proper use of electricity, and a button to begin the loop or function...
+> Very straight forward, simply connect an LED to the ground and a pin for power supply and direction and then add resistors to ensure proper use of electricity, and a button to begin the loop or function...
 <img src="https://user-images.githubusercontent.com/71406831/133668640-a781d8e3-5f1d-4e4d-ab7f-e9eb001982fe.png" alt="wiring2" style="width:500px;">
 
 Image credit goes to [The Robotics Back-End](https://roboticsbackend.com/arduino-turn-led-on-and-off-with-button/)
@@ -66,10 +66,10 @@ void loop() {
 ## LED Fade w/o Button
 
 #### Description:
-> The goal and prurpose of this assignment was to reintroduce and refamiliarize ourselves to aurdunios and their code.  In this assigment we were tasked with making an LED fade in and out, rather than blink without a button, or really any other restrictions such as speed or amount of times.  The primary difference in accomplishing this in the code compared to having an LED blink was using the anaolgWrite(); function rather than the digitalWrite(); function.  Aside from that we will be using many of the same things such as connecting and establishing pins, serial.print.ln, ect.
+> The goal and purpose of this assignment was to reintroduce and refamiliarize ourselves to ardunios and code.  In this assigment we were tasked with making an LED fade in and out, rather than blink without a button, or really any other restrictions such as speed or amount of times.  The primary difference in accomplishing this in the code compared to having an LED blink was using the anaolgWrite(); function rather than the digitalWrite(); function.  Aside from that we will be using many of the same things such as connecting and establishing pins, serial.print.ln, ect.
 #### Wiriring
 
-> Very straight forward, simply connect an LED to the groundand a pin for power supply ad direction, and than add resisterns to ensure proper use of electricity...
+> Very straight forward, simply connect an LED to the ground and a pin for power supply and direction, and than add resistors to ensure proper use of electricity...
 <img src="https://raw.githubusercontent.com/zsiller38/Engineering2-Arduino/main/images/ArduinoPhade.png" alt="wiring"  style="width:500px;">
 
 Image credit goes to [Zach S. (BIG ZACH)](https://github.com/zsiller38/Engineering2-Arduino)
@@ -99,7 +99,7 @@ void loop() { // fad and keep due to loop, don't stop.
 }
 
 ```
-Code credit goes to [Zach S.](https://github.com/zsiller38/Engineering2-Arduino) I did my code on the device at school not on aurduino.cc, and so when submitting this at home on my chromebook I don't have the code.  Put all in aurduino.cc! (Comments applied were own)
+Code credit goes to [Zach S.](https://github.com/zsiller38/Engineering2-Arduino) I did my code on the device at school not on arduino.cc, and so when submitting this at home on my chromebook I don't have the code :(.  Put all in arduino.cc! (Comments applied were own)
 
 And here it is in all its glory (evidence)
 
@@ -116,11 +116,11 @@ And here it is in all its glory (evidence)
 ## Potentiometers
 
 #### Description:
-> Wire up a breadboard potentiometer to control the brightness of an LED. The goal here was to familiarize ourselves with a potentoiometer and how it operates.  We were also able to expand our knoowledge of code and its variouse functions by making something become brighter accordingly, without a deffinate state or a repeating loop.
+> Wire up a breadboard and potentiometer to control the brightness of an LED. The goal here was to familiarize ourselves with a potentoiometer and how it operates.  We were also able to expand our knoowledge of code and its variouse functions by making something become brighter accordingly, without a deffinate state or a repeating loop.
 
 
 #### Wiring
-> In this wiring, all was familiar in terms of hooking things up to 5v, ground, and the variouse pins using wires and resitors, however what was new in this wiring was connecting the middle connection wire of the potentiometer to A0, which simply gave the potentiometer its relevemnce by determinig brightness with the LED.
+> In this wiring, all was familiar in terms of hooking things up to 5v, ground, and the variouse pins using wires and resitors, however what was new in this wiring was connecting the middle connection wire of the potentiometer to A0, which simply gave the potentiometer its relevence by determining brightness with the LED.
 <img src="https://user-images.githubusercontent.com/71406831/134237138-7d672a4f-f634-42a7-8e5b-8e36e8f16fc3.png" alt="wiring"  style="width:500px;">
 
 #### Code
@@ -165,7 +165,7 @@ void loop() {
 [Image credit goes to Wieselly](https://hackster.imgix.net/uploads/attachments/1144713/led_light_ll76wHKBOA.gif?auto=compress&gifq=35&w=680&h=510&fit=max)
 
 #### Reflection
-> This assigjment was interesting because we were able to incorperate new coding and wiring methods.  That of course can be challenging however it was proballby my favorite assignment so far. some takeways...
+> This assignment was interesting because we were able to incorperate new coding and wiring methods.  That of course can be challenging however it was proballby my favorite assignment so far. some takeways...
 > - Potentiometer- potential energy, if A0 (analog read) interperites greater umph via turn of potentiometer and vice versa.
 > - When printing things make sure to be soecific about what is being printed in terms of lik "" for simplicity and effectiveness.
 > - When writing... do not overthink, i initially overthought this howver after having been walked through it its not complicated so don't make it complicated.
@@ -175,7 +175,7 @@ void loop() {
 ## Photoresistor
 
 #### Description:
-> Your task is to develop a night light that automatically comes on when it gets dark.  Or in other words, when you cut of the photoresistors light source, an LED should turn on. Here we want to incorporate new, and more complex functions into our coding knowledge to further our overall knowledge and understanding of how things opporate.  Also because it's gonna be fun!!!!
+> The task is to develop a night light that automatically comes on when it gets dark.  Or in other words, when you cut of the photoresistors light source, an LED should turn on. Here we want to incorporate new, and more complex functions into our coding knowledge to further our overall knowledge and understanding of how things opporate.  Also because it's gonna be fun!!!!
 
 #### Wiring
 
